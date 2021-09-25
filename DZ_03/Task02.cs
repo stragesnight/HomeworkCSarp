@@ -39,7 +39,7 @@ class Task01
 		} while (!TryReadTicketNumber(out ticket));
 
 		Console.WriteLine("\n\nПроверка вашего билета...");
-		Console.WriteLine($"Результат: ваш билет {IsLucky(ticket) ? "счастливый!" : "не счастливый..."}\n");
+		Console.WriteLine($"Результат: ваш билет {(IsLucky(ticket) ? "счастливый!" : "не счастливый...")}\n");
 
 		Console.Write("Попробовать ещё раз? (1 = да, 0 = нет): ");
 		
