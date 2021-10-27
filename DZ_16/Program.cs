@@ -99,7 +99,7 @@ namespace TamagochiGame
 
             // нарисовать статус персонажа
             FillSpace(StatusBoxStart, new Vec2D(
-                        WindowSize.X - 1, StatusBoxStart.Y + 3), ' ');
+                        45, StatusBoxStart.Y + 2), ' ');
             
             Tomodachi tomodachi = Engine.tomodachi;
             string statusString = $"Health: {tomodachi.Health}\n"
